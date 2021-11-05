@@ -673,7 +673,7 @@ To exit the program, run:
 * **Musse Kalil** [Github](https://github.com/AyshaMuss)
 * **** [Github](https://github.com/AyshaMuss)
 <p align="center">
-<img src="http://www.holbertonschool.com/holberton-logo.png" alt="Holberton School logo">
+<img src="https://miro.medium.com/max/1400/1*wClkQT0vp0KTQXLWq5ITcg.png" alt="Alx">
 </p>
 
 
