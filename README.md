@@ -548,7 +548,7 @@ GitHub repository: simple_shell
 | Function Name | Description |
 |---------------- | -----------|
 |[func_exit](https://github.com/AyshaMuss/simple_shell/built-ins.c)    | Exit the shell.|
-|[func_printenv](https://github.com/AyshaMuss/simple_shell/blob/master/built-ins.c) | Prints the current environment.|
+|[func_printenv](https://github.com/cbarros7/simple_shell/blob/master/built-ins.c) | Prints the current environment.|
 |[read_input](https://github.com/AyshaMuss/simple_shell/loop_functions.c) | Stores whatever is passed to it as standard input. |
 |[sparse_str](https://github.com/AyshaMuss/simple_shell/loop_functions.c) | Devides a string into and array of strings. |
 |[execute](https://github.com/AyshaMuss/simple_shell/loop_functions.c) | Executes a command that is passed to it as the first aguement. |
@@ -581,7 +581,8 @@ Custom version UNIX command language interpreter built as a project for Holberto
 * Allowed editors: ```vi```, ```vim```, ```emacs```
 * Programs and functions will be compiled with ```gcc 4.8.4``` using the flags ```-Wall``` ```-Werror``` ```-Wextra``` ```and -pedantic```
 * All files should end with a new line
-* Code should use the ```Betty``` style. it will be checked using [betty-style.pl](https://github.com/AyshaMuss/simple_shell) and [betty-doc.pl](https://github.com/AyshaMuss/simple_shell)
+* Code should use the ```Betty``` style. it will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style\
+.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
 * No more than 5 functions per file
 * All your header files should be include guarded
 * Use system calls only when you need to
@@ -620,13 +621,13 @@ Custom version UNIX command language interpreter built as a project for Holberto
 ## Flowchart :pushpin:
 Below you can see all the process flow in general terms that was taken into account at the time of making the code. 
 
-
+![flowchar mr robot](https://user-images.githubusercontent.com/60367519/79517219-2adbc000-8013-11ea-9835-30bf7c59a41e.jpg)
 
 ## Quick start :runner:
 Git clone the repository:
 
 ```
-git clone https://github.com/AyshaMuss/simple_shell.git 
+git clone https://github.com/cbarros7/simple_shell.git 
 ```
 
 ## Usage :computer:
@@ -641,38 +642,39 @@ Once compiled, to start the program, run:
 To exit the program, run:
 ```$ exit```
   
-
+The **Mr. Robot** supports most shell commands, such as ```cat```, ```pwd```, ```ls -la``` and more.
 
 
 ## List of functions :page_facing_up:
 
 | Function Name | Description |
 |---------------- | -----------|
-|[func_exit](https://github.com/AyshaMuss/simple_shell/blob/master/built-ins.c)    | Exit the shell.|
-|[func_printenv](https://github.com/AyshaMuss/simple_shell/blob/master/built-ins.c) | Prints the current environment.|
-|[read_input](https://github.com/AyshaMuss/simple_shell/blob/master/loop_functions.c) | Stores whatever is passed to it as standard input. |
-|[sparse_str](https://github.com/AyshaMuss/simple_shell/blob/master/loop_functions.c) | Devides a string into and array of strings. |
-|[execute](https://github.com/AyshaMuss/simple_shell/blob/master/loop_functions.c) | Executes a command that is passed to it as the first aguement. |
-|[prompt](https://github.com/AyshaMuss/simple_shell/blob/master/loop_functions.c) | Prints '$' and waits for a user's input. |
-|[_getenv](https://github.com/AyshaMuss/simple_shell/blob/master/loop_sub_functions.c) | Provides the value of the environment passed to it as arguement. |
-|[_which](https://github.com/AyshaMuss/simple_shell/blob/master/loop_sub_functions.c) | Identifies the path of the command(\*args) that is being passed. |
-|[child_process](https://github.com/AyshaMuss/simple_shell/blob/master/loop_sub_functions.c) | Executes a command if the path of it is an executable file. |
-|[search_func](https://github.com/AyshaMuss/simple_shell/blob/master/loop_sub_functions.c) | Search directory. |
-|[_realloc](https://github.com/AyshaMuss/simple_shell/blob/master/memory.c) | Reallocates a space in memory. |
-|[_count_point](https://github.com/AyshaMuss/simple_shell/blob/master/memory.c) | Memory buffer. |
-|[handle_signal](https://github.com/AyshaMuss/simple_shell/blob/master/signals.c) | Prints new line and prompt when CTRL + C is passed as input. |
-|[_stat](https://github.com/AyshaMuss/simple_shell/blob/master/signals.c) | Displays file or file system status. |
-|[_strstr](https://github.com/AyshaMuss/simple_shell/blob/master/str_func.c) | Locates a substring. |
-|[_strlen](https://github.com/AyshaMuss/simple_shell/blob/master/str_func.c) | Returns a string. |
-|[_strcpy](https://github.com/AyshaMuss/simple_shell/blob/master/str_func.c) | Copies a string pointed to by src to dest. |
-|[_strcat](https://github.com/AyshaMuss/simple_shell/blob/master/str_func.c) | Concatenates two strings. |
-|[_strcmp](https://github.com/AyshaMuss/simple_shell/blob/master/str_func.c) | Compare two strings. |
-|[_strdup](https://github.com/AyshaMuss/simple_shell/blob/master/str_func_2.c) | Copies a string to another. |
+|[func_exit](https://github.com/cbarros7/simple_shell/blob/master/built-ins.c)    | Exit the shell.|
+|[func_printenv](https://github.com/cbarros7/simple_shell/blob/master/built-ins.c) | Prints the current environment.|
+|[read_input](https://github.com/cbarros7/simple_shell/blob/master/loop_functions.c) | Stores whatever is passed to it as standard input. |
+|[sparse_str](https://github.com/cbarros7/simple_shell/blob/master/loop_functions.c) | Devides a string into and array of strings. |
+|[execute](https://github.com/cbarros7/simple_shell/blob/master/loop_functions.c) | Executes a command that is passed to it as the first aguement. |
+|[prompt](https://github.com/cbarros7/simple_shell/blob/master/loop_functions.c) | Prints '$' and waits for a user's input. |
+|[_getenv](https://github.com/cbarros7/simple_shell/blob/master/loop_sub_functions.c) | Provides the value of the environment passed to it as arguement. |
+|[_which](https://github.com/cbarros7/simple_shell/blob/master/loop_sub_functions.c) | Identifies the path of the command(\*args) that is being passed. |
+|[child_process](https://github.com/cbarros7/simple_shell/blob/master/loop_sub_functions.c) | Executes a command if the path of it is an executable file. |
+|[search_func](https://github.com/cbarros7/simple_shell/blob/master/loop_sub_functions.c) | Search directory. |
+|[_realloc](https://github.com/cbarros7/simple_shell/blob/master/memory.c) | Reallocates a space in memory. |
+|[_count_point](https://github.com/cbarros7/simple_shell/blob/master/memory.c) | Memory buffer. |
+|[handle_signal](https://github.com/cbarros7/simple_shell/blob/master/signals.c) | Prints new line and prompt when CTRL + C is passed as input. |
+|[_stat](https://github.com/cbarros7/simple_shell/blob/master/signals.c) | Displays file or file system status. |
+|[_strstr](https://github.com/cbarros7/simple_shell/blob/master/str_func.c) | Locates a substring. |
+|[_strlen](https://github.com/cbarros7/simple_shell/blob/master/str_func.c) | Returns a string. |
+|[_strcpy](https://github.com/cbarros7/simple_shell/blob/master/str_func.c) | Copies a string pointed to by src to dest. |
+|[_strcat](https://github.com/cbarros7/simple_shell/blob/master/str_func.c) | Concatenates two strings. |
+|[_strcmp](https://github.com/cbarros7/simple_shell/blob/master/str_func.c) | Compare two strings. |
+|[_strdup](https://github.com/cbarros7/simple_shell/blob/master/str_func_2.c) | Copies a string to another. |
 
-## Authors :
+## Authors :black_nib:
 * **Musse Kalil** [Github](https://github.com/AyshaMuss)
-* **** [Github](https://github.com/AyshaMuss)
-
-
+* **** [Github](https://github.com/AndrewKalil)
+<p align="center">
+<img src="http://www.holbertonschool.com/holberton-logo.png" alt="Holberton School logo">
+</p>
 
 
