@@ -548,7 +548,7 @@ GitHub repository: simple_shell
 | Function Name | Description |
 |---------------- | -----------|
 |[func_exit](https://github.com/AyshaMuss/simple_shell/built-ins.c)    | Exit the shell.|
-|[func_printenv](https://github.com/cbarros7/simple_shell/blob/master/built-ins.c) | Prints the current environment.|
+|[func_printenv](https://github.com/AyshaMuss/simple_shell/blob/master/built-ins.c) | Prints the current environment.|
 |[read_input](https://github.com/AyshaMuss/simple_shell/loop_functions.c) | Stores whatever is passed to it as standard input. |
 |[sparse_str](https://github.com/AyshaMuss/simple_shell/loop_functions.c) | Devides a string into and array of strings. |
 |[execute](https://github.com/AyshaMuss/simple_shell/loop_functions.c) | Executes a command that is passed to it as the first aguement. |
