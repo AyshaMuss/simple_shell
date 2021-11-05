@@ -670,9 +670,9 @@ The **Mr. Robot** supports most shell commands, such as ```cat```, ```pwd```, ``
 |[_strcmp](https://github.com/cbarros7/simple_shell/blob/master/str_func.c) | Compare two strings. |
 |[_strdup](https://github.com/cbarros7/simple_shell/blob/master/str_func_2.c) | Copies a string to another. |
 
-## Authors :black_nib:
+## Authors :
 * **Musse Kalil** [Github](https://github.com/AyshaMuss)
-* **** [Github](https://github.com/AndrewKalil)
+* **** [Github](https://github.com/AyshaMuss)
 <p align="center">
 <img src="http://www.holbertonschool.com/holberton-logo.png" alt="Holberton School logo">
 </p>
